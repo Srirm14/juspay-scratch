@@ -12,7 +12,7 @@ export default function Block(props) {
 
   return (
 
-    <div onClick={props.onClick}>
+    <div>
       <h2>{props.title}</h2>
       {props.data.map((item, index) => (
     

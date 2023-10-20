@@ -1,7 +1,7 @@
 
 import React, { useState, useEffect } from "react";
 
-export default function CatSprite({ charac_id }) {
+export default function AlteredCatSprite({ charac_id }) {
   const defaultPosition = { x: 1258, y: 153 };
   const [position, setPosition] = useState(defaultPosition);
   let elmnt = null;
